@@ -1,5 +1,9 @@
 # website url 
 https://typing-test-ten-nu.vercel.app/
+<br><br>
+![2024-09-01 18-33-53 (1)](https://github.com/user-attachments/assets/187e174b-d63e-45e5-94e0-1f1303bbd0f1)
+<br><br>
+
 <br><br><br>
 # About
 This project is designed to help users test and improve their typing speed, all while showcasing some of the modern web development techniques I've been learning. It combines the dynamic capabilities of React with the sleek, responsive design of Tailwind CSS.
