@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrolling Div Example</title>
+  <style>
+    .scroll-container {
+      width: 300px; /* Width of the container */
+      height: 150px; /* Height of the container */
+      overflow-y: auto; /* Enable vertical scrolling */
+      border: 1px solid #ddd; /* Border for the container */
+      padding: 10px; /* Padding inside the container */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+    }
+
+    .scroll-content {
+      height: 500px; /* Height of the content */
+    }
+  </style>
+</head>
+<body>
+  <div class="scroll-container" id="scrollContainer">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper eleifend. Duis ut nisl sed urna cursus semper. Nam vel tortor orci. Donec sed varius lacus. Nulla facilisi. Curabitur imperdiet lacus vel lorem sagittis, vel malesuada nunc scelerisque.</p>
+      <p>Curabitur vel urna sit amet ligula tristique cursus. Ut lacinia, felis in dictum imperdiet, justo libero gravida justo, at auctor lorem magna ut libero. Duis interdum eros a mi tempus, sed consectetur nulla venenatis. In hac habitasse platea dictumst. Fusce tempor turpis a purus consequat tincidunt. Sed tincidunt vehicula leo, eu scelerisque dolor.</p>
+      <p>Donec eget sollicitudin nulla. Duis venenatis nunc eu eros consectetur, non vehicula ante dapibus. Mauris sagittis turpis at egestas pellentesque. Nulla facilisi. Duis et enim bibendum, pretium ipsum ac, cursus lacus. Suspendisse in ipsum malesuada, efficitur elit id, efficitur lorem. Curabitur vitae metus nisi. In hac habitasse platea dictumst.</p>
+    
+</div>
+<button onclick=scrollDiv()>Scroll</button>
+
+  <script>
+      function scrollDiv() {
+    const scrollContainer = document.getElementById('scrollContainer');
+      if (scrollContainer) {
+        scrollContainer.scrollTop += 1;
+      }
+    }
+
+  
+  </script>
+</body>
+</html>
